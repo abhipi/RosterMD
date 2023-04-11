@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lato_Thin';
+    src: url('../fonts/Lato-Thin.ttf') format('truetype');
+}
+.shift_modal {
+    z-index: 2000 !important;
+}
+.shift_modal .btn-primary {
+    border: none !important;
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+    border-radius: 30px !important;
+}
+.shift_modal .modal-content  {
+    border-radius: 35px !important;
+    border-width: 0px !important;
+    box-shadow: 0px 0px 50px 3px #ffffff17;
+    font-family: "Lato" !important;
+    background-color: rgb(243, 240, 242) !important;
+}
+.shift_modal .modal-body  {
+    border-bottom-right-radius: 30px !important;
+    border-bottom-left-radius: 30px !important;
+    font-family: "Lato" !important;
+    background-color: rgb(243, 240, 242) !important;
+    color: rgb(74, 24, 58) !important;
+    padding-bottom: 0px !important;
+}
+.shift_modal .modal-header {
+    border-top-right-radius: 30px !important;
+    border-top-left-radius: 30px !important;
+    border-bottom-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    color: white !important;
+    background-color: rgb(74, 24, 58) !important;
+    font-family: "Lato" !important;
+}
+.shift_modal .modal-title {
+    color: white !important;
+    font-family: "Lato" !important;
+    font-size: large;
+}
+.shift_modal .modal-footer {
+    color: white !important;
+    background-color: rgb(243, 240, 242) !important;
+    font-family: "Lato" !important;
+    border-radius: 30px !important;
+    border-color: transparent;
+    padding-top: 0px;
+}
+.shift_modal .btn-close {
+    color:rgba(255, 255, 255, 0) !important;
+    background: transparent url("../images/cross.png") center/1em !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: 20% !important;
+}
+.shift_modal .delete {
+    background-color: #9E1100 !important;
+}
+.shift_modal .save {
+    background-color: rgb(74, 24, 58) !important;
+}
+.process {
+    background-color: rgb(74, 24, 58) !important;
+  
+}
+.suspend {
+    border-radius: 50px !important;
+    background-image: url("../images/on_call.png") !important;
+    background-size: 100px !important;
+    background-color: #f8ad58 !important;
+    background-repeat: no-repeat;
+    background-position: center !important;
+    filter: saturate(1) !important;
+    box-shadow: 0 0 10px rgba(74, 24, 58, 0.486) !important;
+}
+.suspend:hover {
+    box-shadow: 0 0 20px rgba(74, 24, 58, 0.571) !important;
+    transition: 1s !important;
+    cursor: pointer !important;
+}
+.process:hover {
+    box-shadow: 0 0 30px #B2999C !important;
+    transition: 1s !important;
+    cursor: pointer !important;
+}
+.quick_modal .btn-primary {
+    border: none !important;
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+    border-radius: 30px !important;
+}
+.quick_modal .modal-content  {
+    border-radius: 35px !important;
+    border-width: 0px !important;
+    box-shadow: 0px 0px 50px 3px #ffffff17;
+    font-family: "Lato" !important;
+    background-color: rgb(74, 24, 58) !important;
+}
+.quick_modal .modal-body  {
+    border-bottom-right-radius: 30px !important;
+    border-bottom-left-radius: 30px !important;
+    font-family: "Lato" !important;
+    background-color: rgb(74, 24, 58) !important;
+    color: rgb(255, 255, 255) !important;
+}
+.quick_modal .modal-header {
+    border-top-right-radius: 30px !important;
+    border-top-left-radius: 30px !important;
+    border-bottom-right-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    color: white !important;
+    background-color: rgb(74, 24, 58) !important;
+    font-family: "Lato" !important;
+    border-color: transparent;
+}
+.quick_modal .modal-title {
+    color: white !important;
+    font-family: "Lato" !important;
+    font-size: large;
+}
+.quick-modal .btn-close {
+    color:rgba(255, 255, 255, 0) !important;
+    background: transparent url("../images/cross.png") center/1em !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    height: 20% !important;
+}
+.add {
+    background-color: #f8ad58 !important;
+    color:rgb(74, 24, 58) !important;
+}
+.remove {
+    background-color: #9E1100 !important;
+    color: white !important;
+}
+.message-container{
+    border-radius: 20px !important;
+    border-color: transparent !important;
+    background-color: #f8ad58 !important;
+}
+.message {
+    border-radius: 20px !important;
+    border-color: transparent !important;
+    width: fit-content !important;
+    background-color: #f8ad58 !important;
+}
+.message-body {
+    border-radius: 20px !important;
+    background-color: #f8ad58 !important;
+    color: rgb(74, 24, 58) !important;
+    border-color: transparent !important;
+    font-family: 'Lato';
+    font-size: 15px;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+.message .btn-close {
+    filter: invert(1);
+}

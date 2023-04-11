@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../../fonts/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lato_Thin';
+    src: url('../../fonts/Lato-Thin.ttf') format('truetype');
+}
+.Inner_Section {
+    height:auto;
+    flex: 70%;
+    vertical-align: middle;
+    margin-bottom: 0px;
+}
+.Background {
+    width: 100%;
+    height: 35vw;
+    min-height: 450px;
+    object-fit:cover;
+    object-position: 50% 35%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    transition: 1s;
+}
+.Background:hover {
+    box-shadow: 0 0 50px rgba(255, 255, 255, 0.4);
+    transition: 1s;
+    cursor: pointer;
+}
+.Spacing {
+    flex: 2%;
+    min-height: 20px;
+}
+.Overlay {
+    box-sizing: border-box;
+    flex: 28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-color: rgba(240, 255, 255, 0);
+    max-width: 100%;
+    margin-left: 0px;
+    padding-right: 5%;
+}
+.Company_Card {
+    height: 10%;
+    min-height: 50px;
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Lato;
+    justify-content: center;
+    white-space: nowrap;
+    align-items: center;
+}
+.Wrapper {
+    background-color: transparent;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 100%;
+}
+.bar {
+    color: rgb(247, 189, 82);
+}
+@media only screen and (max-width: 1032px){
+    .Background {
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .Overlay {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 8%;
+    }
+    .Wrapper {
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    .Company_Card {
+        width: auto;
+        font-size: 17px;
+    }
+    .Name {
+        display: none;
+    }
+    .Spacing {
+        display: none;
+    }
+}

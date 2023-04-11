@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('./fonts/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato_Thin';
+  src: url('./fonts/Lato-Thin.ttf') format('truetype');
+}
+.RosterMD_App {
+  background-color: rgb(64, 12, 47);
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+  min-width: 391px;
+}
+.Footer {
+  background-color: transparent;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  min-width: 391px;
+  z-index: 0;
+ }
+
+
+ 

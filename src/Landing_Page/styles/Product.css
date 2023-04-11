@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../../fonts/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Lato_Thin';
+    src: url('../../fonts/Lato-Thin.ttf') format('truetype');
+}
+.Product {
+    box-sizing: border-box;
+    align-items: center;
+    margin: 0px;
+    min-width: 391px;
+    width: 100%;
+    height: auto;
+    background-color: rgba(64, 12, 47, 1);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+.Tagline {
+    flex: 70%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: start;
+}
+
+@media only screen and (max-width: 1032px){
+    .Tagline {
+      flex-direction: column-reverse;
+    }
+}
+.Mockup {
+    flex: 60%;
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    min-width: 391px;
+    height: auto;
+}
+.Image_Main {
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    position: relative;
+}
+.Text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 40%;
+    max-width: 764px;
+    min-width: 391px;
+    width: auto;
+    height: auto;
+    float:left;
+    transform: translate(-30%, 35%);
+
+}
+.Text_Main {
+    width: 130%;
+    height:auto;
+    flex: 80%;
+}
+.Text_Main_Form {
+    display: flex;
+    flex: 20%;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    white-space: nowrap;
+    padding-bottom: 5%;
+}
+.Input {
+    font-family: 'Lato';
+    height: inherit;
+    min-height: 50px;
+    font-size: 30px;
+    margin: 0;
+    width: 60%;
+    font-size: 25px;
+    border-bottom-color: #ff911c;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    color: #FDD474;
+    text-align: center;
+    outline: none;
+    border-width: 3px;
+    background-color: transparent;
+    box-shadow: 0px 10px 10px -10px rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.Input::placeholder{
+    color:rgba(255, 255, 255, 0.416);
+}
+.Submit_Button {
+    background-image: linear-gradient(135deg, #FCCC6F 0%, #FA742B 100%);
+    border-radius: 20px;
+    padding: 0px;
+    min-height: 50px;
+    max-width: 20%;
+    height:inherit;
+    border: none;
+    transition: 1s;
+}
+.Submit_Button:hover {
+        box-shadow: 0 0 50px rgba(255, 255, 255, 0.4);
+        transition: 1s;
+        cursor: pointer;
+}
+
+@media only screen and (max-width: 1032px){
+    .Text_Main {
+        width: 80%;
+    }
+    .Text {
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+        transform: translate(0%, 0%);
+    }
+}

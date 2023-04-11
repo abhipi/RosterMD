@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('../../fonts/Lato-Regular.ttf') format('truetype');
+}
+.Navbar_Left_Container {
+    flex: 30%;
+    display: flex;
+    align-items:center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.Navbar_Right_Container {
+    flex: 70%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: end;
+}
+.Navbar_Inner_Container {
+    width: 100%;
+    height: 111px;
+    display: flex;
+}
+.Navbar_Link_Container {
+    display: flex;
+}
+.Element {
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-family: 'Lato';
+    text-decoration: none;
+    margin: 20px;
+    padding: 0 10px;
+    position: relative;
+}
+.Element::after {
+    content: "";
+    position: absolute;
+    background-color: #FCA652;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px; 
+    transition: 0.3s;  
+}
+.Element:hover {
+    color: #FCA652;
+}
+.Element:hover:after {
+    width: 100%;
+}
+.Logo {
+    height: auto;
+    max-width: 273px;
+}
+.OpenMenuButton {
+    text-align: center;
+    padding: 5%;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    cursor:pointer;
+}
+.Navbar_Extended_Container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+.Extended_Element {
+    text-align: center;
+    color: white;
+    font-size: medium;
+    font-family: 'Lato';
+    text-decoration: none;
+    margin: 20px;
+    padding: 0 10px;
+    position: relative;
+}
+.Extended_Element::after {
+    content: "";
+    position: absolute;
+    background-color: #FCA652;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px; 
+    transition: 0.3s;  
+}
+.Extended_Element:hover {
+    color: #FCA652;
+}
+.Extended_Element:hover:after {
+    width: 100%;
+}
+@media only screen and (min-width: 1032px) {
+    .OpenMenuButton {
+      display: none;
+    }
+    .Navbar_Extended_Container {
+        display: none;
+      }
+  }
+@media only screen and (max-width: 1032px) {
+    .Element {
+      display: none;
+    }
+} 
