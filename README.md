@@ -9,8 +9,12 @@
 <img width="600" alt="image" src="https://github.com/abhipi/RosterMD/assets/75244191/5ce9a529-a3c9-4571-9643-76ec4588ac9b">
 <img width="600" alt="image" src="https://github.com/abhipi/RosterMD/assets/75244191/7b5ef593-49c3-44be-a4a9-57f6acccf717">
 
-
-
+## To-Do
+- [x] Build Flask API for calls to CM-BERT model, CNN, and Genetic Scheduler. 
+- [x] Finish shift scheduling component.
+- [x] Finish audio display while recording.
+- [x] Deploy COVAREP as MATLAB Archive.
+- [ ] Lower latency in final API call to burnout predictor.
 # Original Submission (Hacklytics '23)
 
 ## Inspiration
