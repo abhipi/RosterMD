@@ -1,13 +1,13 @@
 # RosterM.D.: Putting the Health back in Healthcare
 
-<img width="600" alt="image" src="https://github.com/abhipi/RosterMD/assets/75244191/e8714b30-c84f-48db-aa69-c98669178b6f"><br>
+<img width="600" alt="image" src="https://github.com/abhipi/RosterMD/assets/75244191/6d07a85a-4b72-4a88-8d98-c4637876b72b"><br>
 * <b>Team Members</b>: Ansh Bhatti, Khushi Gupta, Abhishek Pillai
 * <b>Link to Devpost</b>: https://devpost.com/software/rostermd
 * <b>Link to StreamLit</b>: https://anshbhatti-rostermd-rostermd-streamlit-qkhacp.streamlit.app/
 * <b>Winner: Hacklytics '23 (Georgia Tech), Top 5: Startup Exchange's Summit ATL Pitch Competition, Selected for CREATE-X Startup Launch (Accelerator)</b>
 
-<img width="600" alt="image" src="https://github.com/abhipi/RosterMD/assets/75244191/5ce9a529-a3c9-4571-9643-76ec4588ac9b">
-<img width="600" alt="image" src="https://github.com/abhipi/RosterMD/assets/75244191/7b5ef593-49c3-44be-a4a9-57f6acccf717">
+<img width="600" alt="image" src="https://github.com/abhipi/RosterMD/assets/75244191/0589e8e2-3787-4a83-b309-a10e0db0b02b">
+<img width="600" alt="image" src="https://github.com/abhipi/RosterMD/assets/75244191/bc654087-2b8a-4546-96af-23bbb62cce57">
 
 ## To-Do
 - [x] Build Flask API for calls to CM-BERT model, CNN, and Genetic Scheduler. 
