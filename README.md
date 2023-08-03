@@ -15,6 +15,12 @@
 - [x] Finish audio display while recording.
 - [x] Deploy COVAREP as MATLAB Archive.
 - [ ] Lower latency in final API call to burnout predictor.
+
+Uses:
+* https://github.com/thuiar/Cross-Modal-BERT
+* https://github.com/jaekookang/p2fa_py3
+* <b>Link to trained model</b>: https://drive.google.com/file/d/19EGRhh8BiNbtKPw-UEMVxf0_60SJA64q/view?usp=sharing
+
 # Original Submission (Hacklytics '23)
 
 ## Inspiration
